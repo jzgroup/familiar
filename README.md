@@ -5,18 +5,22 @@
 
 ### 原理浅析
 
+示例一:
+
 <img src='images/t_image_1.jpg' width="200px" height="150px" alt='原图'/>
-缩放 ⟹
+缩放
 <img src='doc/scale_side_64.jpg' width="75px" height="75px" alt='64x64'/>
-灰度 ⟹
+灰度
 <img src='doc/gray_side_64.jpg' width="75px" height="75px" alt='64x64'/>
 
  <br>
 
+示例二:
+
 <img src='images/t_image_1.jpg' width="200px" height="150px" alt='原图'/>
-缩放 ⟹
+缩放
 <img src='doc/scale_side_32.jpg' width="75px" height="75px" alt='32x32'/>
-灰度 ⟹
+灰度
 <img src='doc/gray_side_32.jpg' width="75px" height="75px" alt='32x32'/>
 
 计算灰度平均值并逐像素, 大等于平均值的像素记为`1`, 小于平均值的像素记为`0`, 最终得到结果:
